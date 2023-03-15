@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    margin: 100px auto;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+h1 span{
+    font-size: 3rem;
+}
+button{
+    color: #fefefe;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, .6);
+    padding: 0.45rem 0.75rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+button:hover{
+    background: rgb(0, 0, 0);
+}

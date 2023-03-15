@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./7633_Digital_Fan.jpg") no-repeat center / cover;
+}
+.container{
+    text-align: center;
+    text-transform: capitalize;
+    border: 3px solid #fff;
+    box-shadow: 10px 10px 5px #000;
+    border-radius: 10px;
+    font-family: monospace;
+    flex: 0 0 80%;
+    padding: 1rem 1.5rem;
+    color: #fff;
+}
+.count{
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 1px 2px 5px #000;
+    
+}
+.btn-group{
+    padding: 0.65rem 1rem;
+    /* margin-top: 1.5rem; */
+}
+button{
+    padding: 0.45rem 0.65rem;
+    width: 20%;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 1.3rem;
+    box-shadow: 3px 5px 5px #000;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

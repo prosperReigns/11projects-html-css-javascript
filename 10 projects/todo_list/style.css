@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #666;
+}
+.container{
+    flex: 0 0 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 5px 7px #000;
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+    position: relative;
+}
+.addtask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addtask input{
+    padding: 0.45rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 65%;
+    border-radius: 10px;
+    border-width: 3px;
+    outline: none;
+}
+.addtask input:focus{
+    outline: none;
+    border-color: #0d85cd;
+}
+.addtask button{
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 0.45rem 1rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background: #0d85cd;
+    color: #fff;
+    font-weight: 500;
+    border-width: 3px;
+    cursor: pointer;
+}
+.task-list{
+    background: #666;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+}
+.new-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    transform: translate(90px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    animation: animateNew-task .1s alternate;
+}
+@keyframes animateNew-task {
+    from{
+        width:0;
+    }
+
+    to{
+        width: 75%;
+    }
+}
+.input-value{
+    padding: 0.45rem 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+    width: 80%;
+    border: 3px solid #fff;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+.btn{
+    padding: 0.45rem;
+    background: #0d85cd;
+    border-radius: 7px;
+    width: 20%;
+    border: 3px solid #fff;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.btn i{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.container .reset{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    padding-block: 0.65rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background: #ef1512;
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

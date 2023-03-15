@@ -1,0 +1,20 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 0.45rem 0.75rem;
+    font-size: 1.1rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    cursor: pointer;
+    background: rgba(0,0,0,.6);
+    text-transform: capitalize;
+    color: #fefefe;
+}
+button:hover{
+    background: rgb(0, 0, 0);
+}
